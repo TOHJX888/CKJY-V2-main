@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9928843D2B0C88BB00618C2C /* CKJY_V2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9928843C2B0C88BB00618C2C /* CKJY_V2App.swift */; };
+		9928843F2B0C88BB00618C2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9928843E2B0C88BB00618C2C /* ContentView.swift */; };
+		992884412B0C88BE00618C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 992884402B0C88BE00618C2C /* Assets.xcassets */; };
+		992884442B0C88BE00618C2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 992884432B0C88BE00618C2C /* Preview Assets.xcassets */; };
+		9928844E2B0C88BF00618C2C /* CKJY_V2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9928844D2B0C88BF00618C2C /* CKJY_V2Tests.swift */; };
+		992884582B0C88BF00618C2C /* CKJY_V2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992884572B0C88BF00618C2C /* CKJY_V2UITests.swift */; };
+		9928845A2B0C88BF00618C2C /* CKJY_V2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992884592B0C88BF00618C2C /* CKJY_V2UITestsLaunchTests.swift */; };
+		992884672B0C88D900618C2C /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992884662B0C88D900618C2C /* FoodListView.swift */; };
+		992884692B0C895000618C2C /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992884682B0C895000618C2C /* Ingredient.swift */; };
+		9928846D2B0C91CD00618C2C /* NewIngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9928846C2B0C91CD00618C2C /* NewIngredientView.swift */; };
+		9928846F2B0C984D00618C2C /* IngredientRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9928846E2B0C984D00618C2C /* IngredientRowView.swift */; };
+		992884712B0C99AD00618C2C /* IngredientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992884702B0C99AD00618C2C /* IngredientManager.swift */; };
+		9939A7602B1191D400B41199 /* RecipeIngredientRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9939A75F2B1191D400B41199 /* RecipeIngredientRowView.swift */; };
+		9939A7622B11975100B41199 /* NewRecipeIngredientRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9939A7612B11975100B41199 /* NewRecipeIngredientRowView.swift */; };
+		99775F252B0D9B9A000BBD76 /* IngredientNewRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99775F242B0D9B9A000BBD76 /* IngredientNewRowView.swift */; };
+		99775F272B0DCE64000BBD76 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99775F262B0DCE64000BBD76 /* RecipesView.swift */; };
+		99775F2C2B0DCEEF000BBD76 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99775F2B2B0DCEEF000BBD76 /* ProgressView.swift */; };
+		99775F2E2B0DD71B000BBD76 /* NewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99775F2D2B0DD71B000BBD76 /* NewRecipeView.swift */; };
+		99775F302B0DE0ED000BBD76 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99775F2F2B0DE0ED000BBD76 /* Recipe.swift */; };
+		99775F322B0DE343000BBD76 /* RecipeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99775F312B0DE343000BBD76 /* RecipeRowView.swift */; };
+		99775F342B1030C2000BBD76 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99775F332B1030C2000BBD76 /* RecipeDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9928844A2B0C88BF00618C2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 992884312B0C88BB00618C2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 992884382B0C88BB00618C2C;
+			remoteInfo = "CKJY V2";
+		};
+		992884542B0C88BF00618C2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 992884312B0C88BB00618C2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 992884382B0C88BB00618C2C;
+			remoteInfo = "CKJY V2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		992884392B0C88BB00618C2C /* CKJY V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CKJY V2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9928843C2B0C88BB00618C2C /* CKJY_V2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKJY_V2App.swift; sourceTree = "<group>"; };
+		9928843E2B0C88BB00618C2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		992884402B0C88BE00618C2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		992884432B0C88BE00618C2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		992884492B0C88BF00618C2C /* CKJY V2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CKJY V2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9928844D2B0C88BF00618C2C /* CKJY_V2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKJY_V2Tests.swift; sourceTree = "<group>"; };
+		992884532B0C88BF00618C2C /* CKJY V2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CKJY V2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		992884572B0C88BF00618C2C /* CKJY_V2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKJY_V2UITests.swift; sourceTree = "<group>"; };
+		992884592B0C88BF00618C2C /* CKJY_V2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKJY_V2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		992884662B0C88D900618C2C /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
+		992884682B0C895000618C2C /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		9928846C2B0C91CD00618C2C /* NewIngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewIngredientView.swift; sourceTree = "<group>"; };
+		9928846E2B0C984D00618C2C /* IngredientRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientRowView.swift; sourceTree = "<group>"; };
+		992884702B0C99AD00618C2C /* IngredientManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientManager.swift; sourceTree = "<group>"; };
+		9939A75F2B1191D400B41199 /* RecipeIngredientRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeIngredientRowView.swift; sourceTree = "<group>"; };
+		9939A7612B11975100B41199 /* NewRecipeIngredientRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeIngredientRowView.swift; sourceTree = "<group>"; };
+		99775F242B0D9B9A000BBD76 /* IngredientNewRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientNewRowView.swift; sourceTree = "<group>"; };
+		99775F262B0DCE64000BBD76 /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
+		99775F2B2B0DCEEF000BBD76 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		99775F2D2B0DD71B000BBD76 /* NewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeView.swift; sourceTree = "<group>"; };
+		99775F2F2B0DE0ED000BBD76 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		99775F312B0DE343000BBD76 /* RecipeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRowView.swift; sourceTree = "<group>"; };
+		99775F332B1030C2000BBD76 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		992884362B0C88BB00618C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992884462B0C88BF00618C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992884502B0C88BF00618C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		992884302B0C88BB00618C2C = {
+			isa = PBXGroup;
+			children = (
+				9928843B2B0C88BB00618C2C /* CKJY V2 */,
+				9928844C2B0C88BF00618C2C /* CKJY V2Tests */,
+				992884562B0C88BF00618C2C /* CKJY V2UITests */,
+				9928843A2B0C88BB00618C2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9928843A2B0C88BB00618C2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				992884392B0C88BB00618C2C /* CKJY V2.app */,
+				992884492B0C88BF00618C2C /* CKJY V2Tests.xctest */,
+				992884532B0C88BF00618C2C /* CKJY V2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9928843B2B0C88BB00618C2C /* CKJY V2 */ = {
+			isa = PBXGroup;
+			children = (
+				9928843C2B0C88BB00618C2C /* CKJY_V2App.swift */,
+				9928843E2B0C88BB00618C2C /* ContentView.swift */,
+				99775F282B0DCE7E000BBD76 /* FoodListTab */,
+				99775F292B0DCEA7000BBD76 /* RecipesTab */,
+				99775F2A2B0DCEBA000BBD76 /* ProgressTab */,
+				992884402B0C88BE00618C2C /* Assets.xcassets */,
+				992884422B0C88BE00618C2C /* Preview Content */,
+			);
+			path = "CKJY V2";
+			sourceTree = "<group>";
+		};
+		992884422B0C88BE00618C2C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				992884432B0C88BE00618C2C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9928844C2B0C88BF00618C2C /* CKJY V2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9928844D2B0C88BF00618C2C /* CKJY_V2Tests.swift */,
+			);
+			path = "CKJY V2Tests";
+			sourceTree = "<group>";
+		};
+		992884562B0C88BF00618C2C /* CKJY V2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				992884572B0C88BF00618C2C /* CKJY_V2UITests.swift */,
+				992884592B0C88BF00618C2C /* CKJY_V2UITestsLaunchTests.swift */,
+			);
+			path = "CKJY V2UITests";
+			sourceTree = "<group>";
+		};
+		99775F282B0DCE7E000BBD76 /* FoodListTab */ = {
+			isa = PBXGroup;
+			children = (
+				992884662B0C88D900618C2C /* FoodListView.swift */,
+				9928846E2B0C984D00618C2C /* IngredientRowView.swift */,
+				99775F242B0D9B9A000BBD76 /* IngredientNewRowView.swift */,
+				9928846C2B0C91CD00618C2C /* NewIngredientView.swift */,
+				992884682B0C895000618C2C /* Ingredient.swift */,
+				992884702B0C99AD00618C2C /* IngredientManager.swift */,
+			);
+			path = FoodListTab;
+			sourceTree = "<group>";
+		};
+		99775F292B0DCEA7000BBD76 /* RecipesTab */ = {
+			isa = PBXGroup;
+			children = (
+				99775F262B0DCE64000BBD76 /* RecipesView.swift */,
+				99775F332B1030C2000BBD76 /* RecipeDetailView.swift */,
+				99775F2D2B0DD71B000BBD76 /* NewRecipeView.swift */,
+				9939A75F2B1191D400B41199 /* RecipeIngredientRowView.swift */,
+				9939A7612B11975100B41199 /* NewRecipeIngredientRowView.swift */,
+				99775F312B0DE343000BBD76 /* RecipeRowView.swift */,
+				99775F2F2B0DE0ED000BBD76 /* Recipe.swift */,
+			);
+			path = RecipesTab;
+			sourceTree = "<group>";
+		};
+		99775F2A2B0DCEBA000BBD76 /* ProgressTab */ = {
+			isa = PBXGroup;
+			children = (
+				99775F2B2B0DCEEF000BBD76 /* ProgressView.swift */,
+			);
+			path = ProgressTab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		992884382B0C88BB00618C2C /* CKJY V2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9928845D2B0C88BF00618C2C /* Build configuration list for PBXNativeTarget "CKJY V2" */;
+			buildPhases = (
+				992884352B0C88BB00618C2C /* Sources */,
+				992884362B0C88BB00618C2C /* Frameworks */,
+				992884372B0C88BB00618C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CKJY V2";
+			productName = "CKJY V2";
+			productReference = 992884392B0C88BB00618C2C /* CKJY V2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		992884482B0C88BF00618C2C /* CKJY V2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 992884602B0C88BF00618C2C /* Build configuration list for PBXNativeTarget "CKJY V2Tests" */;
+			buildPhases = (
+				992884452B0C88BF00618C2C /* Sources */,
+				992884462B0C88BF00618C2C /* Frameworks */,
+				992884472B0C88BF00618C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9928844B2B0C88BF00618C2C /* PBXTargetDependency */,
+			);
+			name = "CKJY V2Tests";
+			productName = "CKJY V2Tests";
+			productReference = 992884492B0C88BF00618C2C /* CKJY V2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		992884522B0C88BF00618C2C /* CKJY V2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 992884632B0C88BF00618C2C /* Build configuration list for PBXNativeTarget "CKJY V2UITests" */;
+			buildPhases = (
+				9928844F2B0C88BF00618C2C /* Sources */,
+				992884502B0C88BF00618C2C /* Frameworks */,
+				992884512B0C88BF00618C2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				992884552B0C88BF00618C2C /* PBXTargetDependency */,
+			);
+			name = "CKJY V2UITests";
+			productName = "CKJY V2UITests";
+			productReference = 992884532B0C88BF00618C2C /* CKJY V2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		992884312B0C88BB00618C2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					992884382B0C88BB00618C2C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					992884482B0C88BF00618C2C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 992884382B0C88BB00618C2C;
+					};
+					992884522B0C88BF00618C2C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 992884382B0C88BB00618C2C;
+					};
+				};
+			};
+			buildConfigurationList = 992884342B0C88BB00618C2C /* Build configuration list for PBXProject "CKJY V2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 992884302B0C88BB00618C2C;
+			productRefGroup = 9928843A2B0C88BB00618C2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				992884382B0C88BB00618C2C /* CKJY V2 */,
+				992884482B0C88BF00618C2C /* CKJY V2Tests */,
+				992884522B0C88BF00618C2C /* CKJY V2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		992884372B0C88BB00618C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992884442B0C88BE00618C2C /* Preview Assets.xcassets in Resources */,
+				992884412B0C88BE00618C2C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992884472B0C88BF00618C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992884512B0C88BF00618C2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		992884352B0C88BB00618C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99775F322B0DE343000BBD76 /* RecipeRowView.swift in Sources */,
+				9939A7602B1191D400B41199 /* RecipeIngredientRowView.swift in Sources */,
+				9939A7622B11975100B41199 /* NewRecipeIngredientRowView.swift in Sources */,
+				992884692B0C895000618C2C /* Ingredient.swift in Sources */,
+				99775F252B0D9B9A000BBD76 /* IngredientNewRowView.swift in Sources */,
+				992884672B0C88D900618C2C /* FoodListView.swift in Sources */,
+				99775F302B0DE0ED000BBD76 /* Recipe.swift in Sources */,
+				9928846D2B0C91CD00618C2C /* NewIngredientView.swift in Sources */,
+				9928843F2B0C88BB00618C2C /* ContentView.swift in Sources */,
+				99775F342B1030C2000BBD76 /* RecipeDetailView.swift in Sources */,
+				9928846F2B0C984D00618C2C /* IngredientRowView.swift in Sources */,
+				99775F2E2B0DD71B000BBD76 /* NewRecipeView.swift in Sources */,
+				9928843D2B0C88BB00618C2C /* CKJY_V2App.swift in Sources */,
+				99775F2C2B0DCEEF000BBD76 /* ProgressView.swift in Sources */,
+				99775F272B0DCE64000BBD76 /* RecipesView.swift in Sources */,
+				992884712B0C99AD00618C2C /* IngredientManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992884452B0C88BF00618C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9928844E2B0C88BF00618C2C /* CKJY_V2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9928844F2B0C88BF00618C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992884582B0C88BF00618C2C /* CKJY_V2UITests.swift in Sources */,
+				9928845A2B0C88BF00618C2C /* CKJY_V2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9928844B2B0C88BF00618C2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 992884382B0C88BB00618C2C /* CKJY V2 */;
+			targetProxy = 9928844A2B0C88BF00618C2C /* PBXContainerItemProxy */;
+		};
+		992884552B0C88BF00618C2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 992884382B0C88BB00618C2C /* CKJY V2 */;
+			targetProxy = 992884542B0C88BF00618C2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9928845B2B0C88BF00618C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9928845C2B0C88BF00618C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9928845E2B0C88BF00618C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CKJY V2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FoodiBear;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Toh-Jia-Xuan.CKJY-V2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9928845F2B0C88BF00618C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CKJY V2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FoodiBear;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Toh-Jia-Xuan.CKJY-V2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		992884612B0C88BF00618C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Toh-Jia-Xuan.CKJY-V2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CKJY V2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CKJY V2";
+			};
+			name = Debug;
+		};
+		992884622B0C88BF00618C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Toh-Jia-Xuan.CKJY-V2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CKJY V2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CKJY V2";
+			};
+			name = Release;
+		};
+		992884642B0C88BF00618C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Toh-Jia-Xuan.CKJY-V2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CKJY V2";
+			};
+			name = Debug;
+		};
+		992884652B0C88BF00618C2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Toh-Jia-Xuan.CKJY-V2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CKJY V2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		992884342B0C88BB00618C2C /* Build configuration list for PBXProject "CKJY V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9928845B2B0C88BF00618C2C /* Debug */,
+				9928845C2B0C88BF00618C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9928845D2B0C88BF00618C2C /* Build configuration list for PBXNativeTarget "CKJY V2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9928845E2B0C88BF00618C2C /* Debug */,
+				9928845F2B0C88BF00618C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		992884602B0C88BF00618C2C /* Build configuration list for PBXNativeTarget "CKJY V2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992884612B0C88BF00618C2C /* Debug */,
+				992884622B0C88BF00618C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		992884632B0C88BF00618C2C /* Build configuration list for PBXNativeTarget "CKJY V2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992884642B0C88BF00618C2C /* Debug */,
+				992884652B0C88BF00618C2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 992884312B0C88BB00618C2C /* Project object */;
+}
